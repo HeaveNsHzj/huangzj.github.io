@@ -28,7 +28,7 @@
 			alert('您的位置：'+r.point.lng+','+r.point.lat);
       (new BMap.Geocoder).getLocation(r.point, function(t) {
           t.addressComponents;
-          alert("55", t.address);
+          alert( t.address);
       });
 		}
 		else {
